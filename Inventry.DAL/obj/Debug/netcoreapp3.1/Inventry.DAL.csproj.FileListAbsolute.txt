@@ -1,0 +1,12 @@
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.deps.json
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.runtimeconfig.json
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.runtimeconfig.dev.json
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.dll
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.pdb
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.csprojAssemblyReference.cache
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.AssemblyInfo.cs
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.dll
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.pdb
+C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.genruntimeconfig.cache
