@@ -29,7 +29,7 @@
    ```
 - Run the project start adding cot reports
 
-#  Due to time constraint Front end of this project is not completed fully,however everyday I try to add up new work
+###  Due to time constraint Front end of this project is not completed fully,however is being added
 
 # Front End Angular (naviagete to src folder)
 ### Open command prompt type code .  to open project in VS code
