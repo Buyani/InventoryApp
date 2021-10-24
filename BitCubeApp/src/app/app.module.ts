@@ -37,6 +37,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table';
 import { CdkTableModule } from '@angular/cdk/table';
 import { NgMarqueeModule } from 'ng-marquee';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -55,11 +56,13 @@ import { NgMarqueeModule } from 'ng-marquee';
     BrowserAnimationsModule,
     // * MATERIAL IMPORTS
     MatSidenavModule,
+    NgbModule,
     MatToolbarModule,
     MatMenuModule,
     MatIconModule,
     MatDividerModule,
     MatListModule,
+    MatButtonModule ,
     MatProgressSpinnerModule,
     BrowserModule,
     HttpClientModule,

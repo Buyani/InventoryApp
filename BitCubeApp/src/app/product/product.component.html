@@ -1,23 +1,13 @@
 
 <div class="container">
-
-    <mat-card class="mat-elevation-z8">
-      <mat-card-content>
-        <mat-toolbar color="accent" style="  background: #007bff;
-        color: #fff;">
-            <div align="center" style="text-align: right;">
-            Product Invetory System Management
-            </div>
-          </mat-toolbar>
-      </mat-card-content>
-    </mat-card>
 <div>
     <br>
 </div>
+<mat-card class="mat-elevation-z8">
+    <mat-card-content>
 <div class="row">
     <div class="col-md-12">
-        <mat-card class="mat-elevation-z8">
-            <mat-card-content>
+
                 <form [formGroup]="productForm" class="form-horizontal" (ngSubmit)="onFormSubmit()">
                     <table>
                         <tr>
@@ -57,110 +47,64 @@
                         <button type="reset" mat-raised-button color="accent" matTooltip="Reset" (click)="resetForm()">Reset</button>
                       </td>
                 </form>
-            </mat-card-content>
-          </mat-card>
+
     </div>
 
 </div>
-<div>
-    <br>
-</div>
+<div><hr></div>
+<div><hr></div>
 <div class="row">
-    <div class="col-md-12">
-        <div class="mat-elevation-z8">
-            <table  mat-table [dataSource]="dataSource" >
-                <ng-container matColumnDef="productPurchaseId">
-                    <mat-header-cell *matHeaderCellDef mat-sort-header>ProductId</mat-header-cell>
-                    <mat-cell *matCellDef="let product">{{product.productPurchaseId}}</mat-cell>
-                </ng-container>
-            
-                <ng-container matColumnDef="productName">
-                    <mat-header-cell *matHeaderCellDef mat-sort-header>ProductName</mat-header-cell>
-                    <mat-cell *matCellDef="let product">{{product.productName}}</mat-cell>
-                </ng-container>
-            
-                <ng-container matColumnDef="quantity">
-                    <mat-header-cell *matHeaderCellDef>Quantity</mat-header-cell>
-                    <mat-cell class="description-cell"
-                                *matCellDef="let product">{{product.quantity}}</mat-cell>
-            
-                </ng-container>
-            
-                <ng-container matColumnDef="unitPrice">
-                    <mat-header-cell *matHeaderCellDef mat-sort-header>UnitPrice</mat-header-cell>
-                    <mat-cell class="duration-cell"
-                                *matCellDef="let product">{{product.unitPrice}}</mat-cell>
-                </ng-container>
-            
-                <ng-container matColumnDef="productTypeId">
-                    <mat-header-cell *matHeaderCellDef>productTypeId</mat-header-cell>
-                    <mat-cell class="duration-cell"
-                                *matCellDef="let product">{{product.productTypeId}}</mat-cell>
-                </ng-container>  
-                
-                <ng-container matColumnDef="SellProduct">
-                    <mat-header-cell  *matHeaderCellDef mat-sort-header> Edit </mat-header-cell>
-      
-                    <mat-cell  *matCellDef="let product">
-      
-                      <button mat-icon-button aria-label="Example icon button with a vertical three dot icon" type="button" mat-raised-button color="accent" matTooltip="Edit" >Sell Product</button>
-                    </mat-cell>
-                  </ng-container>
+
+    <table  mat-table [dataSource]="dataSource" >
+        <ng-container matColumnDef="productPurchaseId">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>ProductId</mat-header-cell>
+            <mat-cell *matCellDef="let product">{{product.productPurchaseId}}</mat-cell>
+        </ng-container>
+    
+        <ng-container matColumnDef="productName">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>ProductName</mat-header-cell>
+            <mat-cell *matCellDef="let product">{{product.productName}}</mat-cell>
+        </ng-container>
+    
+        <ng-container matColumnDef="quantity">
+            <mat-header-cell *matHeaderCellDef>Quantity</mat-header-cell>
+            <mat-cell class="description-cell"
+                        *matCellDef="let product">{{product.quantity}}</mat-cell>
+    
+        </ng-container>
+    
+        <ng-container matColumnDef="unitPrice">
+            <mat-header-cell *matHeaderCellDef mat-sort-header>UnitPrice</mat-header-cell>
+            <mat-cell class="duration-cell"
+                        *matCellDef="let product">{{product.unitPrice}}</mat-cell>
+        </ng-container>
+    
+        <ng-container matColumnDef="productTypeId">
+            <mat-header-cell *matHeaderCellDef>productTypeId</mat-header-cell>
+            <mat-cell class="duration-cell"
+                        *matCellDef="let product">{{product.productTypeId}}</mat-cell>
+        </ng-container>  
+        
+          <ng-container matColumnDef="Action">
+            <mat-header-cell  *matHeaderCellDef mat-sort-header> Action </mat-header-cell>
+            <mat-cell  *matCellDef="let product"> 
+                <button data-target="#addEditUser"   mat-icon-button aria-label="Example icon button with a delete icon" type="button" mat-raised-button color="accent" matTooltip="Action" (click)="sellProduct(product.productPurchaseId)">Sell</button></mat-cell>
+          </ng-container>
 
 
-                <mat-header-row *matHeaderRowDef="columnsToDisplay"></mat-header-row>
-                <mat-row *matRowDef="let row; columns: columnsToDisplay"></mat-row>
-            
-            
-            </table >
-            <mat-paginator [length]="100"
-                [pageSize]="6"
-                [pageSizeOptions]="[5, 10, 25, 100]"
-                aria-label="Select page">
-                </mat-paginator>
-        </div>
 
 
-    </div>
+        <mat-header-row *matHeaderRowDef="columnsToDisplay"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: columnsToDisplay"></mat-row>
+    
+    
+    </table >
+    <mat-paginator [length]="100"
+        [pageSize]="6"
+        [pageSizeOptions]="[5, 10, 25, 100]"
+        aria-label="Select page">
+        </mat-paginator>
 </div>
-
+</mat-card-content>
+</mat-card>
 </div>
-
-
-<ng-template #editProfileModal let-modal>
-    <div class="modal-header">
-     <h5 class="modal-title" id="editProfileLabel">Edit Profile</h5>
-     <button type="button" class="close" (click)="modal.dismiss()" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-     </button>
-    </div>
-
-<div class="modal-body">
-    <form>
-     <div class="form-group row">
-      <label for="productName" class="col-sm-4 col-form-label">productName </label>
-      <div class="col-sm-8">
-       <input type="text" class="form-control" formControlName="productName" id="productName">
-      </div>
-     </div>   <div class="form-group row">
-      <label for="quantity" class="col-sm-4 col-form-label">quantity</label>
-      <div class="col-sm-8">
-       <input type="text" class="form-control" formControlName="quantity" id="quantity">
-      </div>
-     </div>   <div class="form-group row">
-      <label for="unitPrice" class="col-sm-4 col-form-label">unitPrice</label>
-      <div class="col-sm-8">
-       <input type="text" class="form-control" formControlName="unitPrice" id="unitPrice">
-      </div>
-     </div>   <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" (click)="modal.dismiss()">Close</button>
-      <button type="submit" class="btn btn-primary">Save changes</button>
-     </div>
-    </form>
-   </div>
-  </ng-template>
-
-
-
-
-

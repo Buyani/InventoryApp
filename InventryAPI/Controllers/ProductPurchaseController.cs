@@ -31,31 +31,10 @@ namespace InventryAPI.Controllers
       }
       return list;
     }
-
-    // GET api/<ProductPurchaseController>/5
-    [HttpGet("{id}")]
-    public string Get(int id)
-    {
-      return "value";
-    }
-
-    // POST api/<ProductPurchaseController>
     [HttpPost]
     public void Post(ProductsPurchaseOrder products)
     {
       service.AddProductsToInventory(products);
-    }
-
-    // PUT api/<ProductPurchaseController>/5
-    [HttpPut("{id}")]
-    public void Put(int id, [FromBody] string value)
-    {
-    }
-
-    // DELETE api/<ProductPurchaseController>/5
-    [HttpDelete("{id}")]
-    public void Delete(int id)
-    {
     }
 
   }

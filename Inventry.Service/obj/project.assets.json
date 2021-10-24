@@ -5790,25 +5790,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Buyani\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Source\\repos\\InventryAPI\\Inventry.Service\\Inventry.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Buyani\\source\\repos\\InventoryApp\\Inventry.Service\\Inventry.Service.csproj",
       "projectName": "Inventry.Service",
-      "projectPath": "C:\\Users\\Admin\\Source\\repos\\InventryAPI\\Inventry.Service\\Inventry.Service.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Source\\repos\\InventryAPI\\Inventry.Service\\obj\\",
+      "projectPath": "C:\\Users\\Buyani\\source\\repos\\InventoryApp\\Inventry.Service\\Inventry.Service.csproj",
+      "packagesPath": "C:\\Users\\Buyani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Buyani\\source\\repos\\InventoryApp\\Inventry.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Buyani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5823,8 +5824,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Admin\\Source\\repos\\InventryAPI\\Inventry.DAL\\Inventry.DAL.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Source\\repos\\InventryAPI\\Inventry.DAL\\Inventry.DAL.csproj"
+            "C:\\Users\\Buyani\\source\\repos\\InventoryApp\\Inventry.DAL\\Inventry.DAL.csproj": {
+              "projectPath": "C:\\Users\\Buyani\\source\\repos\\InventoryApp\\Inventry.DAL\\Inventry.DAL.csproj"
             }
           }
         }
@@ -5859,7 +5860,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

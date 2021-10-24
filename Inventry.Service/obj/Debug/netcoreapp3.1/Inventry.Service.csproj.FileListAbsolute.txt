@@ -10,3 +10,16 @@ C:\Users\Admin\Source\repos\InventryAPI\Inventry.Service\obj\Debug\netcoreapp3.1
 C:\Users\Admin\Source\repos\InventryAPI\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.csproj.CopyComplete
 C:\Users\Admin\Source\repos\InventryAPI\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.dll
 C:\Users\Admin\Source\repos\InventryAPI\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.pdb
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\bin\Debug\netcoreapp3.1\Inventry.Service.deps.json
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\bin\Debug\netcoreapp3.1\Inventry.Service.dll
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\bin\Debug\netcoreapp3.1\Inventry.Service.pdb
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\bin\Debug\netcoreapp3.1\Inventry.DAL.dll
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\bin\Debug\netcoreapp3.1\Inventry.DAL.pdb
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.csproj.AssemblyReference.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.AssemblyInfoInputs.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.AssemblyInfo.cs
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.csproj.CoreCompileInputs.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.csproj.CopyComplete
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.dll
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.Service\obj\Debug\netcoreapp3.1\Inventry.Service.pdb

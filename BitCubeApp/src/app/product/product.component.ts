@@ -24,7 +24,7 @@
     selectedProductType: number; 
 
     productForm:any;
-    public columnsToDisplay : string[] =['productPurchaseId','productName' ,'productTypeId', 'quantity', 'unitPrice'];
+    public columnsToDisplay : string[] =['productPurchaseId','productName' ,'productTypeId', 'quantity', 'unitPrice','Action'];
     public dataSource = new MatTableDataSource<Product>();
     horizontalPosition: MatSnackBarHorizontalPosition = 'center';
     verticalPosition: MatSnackBarVerticalPosition = 'bottom';
@@ -32,13 +32,8 @@
     @ViewChild(MatSort) sort: MatSort;
       
   constructor(private formbulider: FormBuilder,private productService: ProductService, private _snackBar: MatSnackBar) { 
-    this.productService.getAllProducts().subscribe(data => {
-      this.dataSource = new MatTableDataSource(data);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-    });
+    this.loadProducts();
   }
-
 
   ngOnInit():void {
     this.productForm = this.formbulider.group({
@@ -64,10 +59,12 @@
   {
     this.productService.getAllProductTypes().subscribe(data=>{
       this.allProductTypes=data;
-      console.log(this.allProductTypes)
     })
   }
-
+  sellProduct(productId:any)
+  {
+    console.log(productId);
+  }
 
   resetForm() {
     this.productForm.reset();
@@ -75,10 +72,12 @@
     this.loadProducts();
   }
 
+
   onFormSubmit() {
     this.dataSaved = true;
     const product = this.productForm.value;
     this.CreateProduct(product);
+    this.loadProducts();
     this.SavedSuccessful(1);
   }
 
@@ -86,6 +85,7 @@
   CreateProduct(product: Product) {
     this.productService.createProduct(product).subscribe(response=>{
       this.serverresponse=response;
+      console.log(response);
     })
     this.dataSaved=true;
     this.SavedSuccessful(1);

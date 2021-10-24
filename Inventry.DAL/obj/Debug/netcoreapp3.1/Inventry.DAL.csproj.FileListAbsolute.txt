@@ -10,3 +10,16 @@ C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inv
 C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.dll
 C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.pdb
 C:\Users\Admin\Source\repos\InventryAPI\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.genruntimeconfig.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.deps.json
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.runtimeconfig.json
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.runtimeconfig.dev.json
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.dll
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\bin\Debug\netcoreapp3.1\Inventry.DAL.pdb
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.csproj.AssemblyReference.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.AssemblyInfoInputs.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.AssemblyInfo.cs
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.dll
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.pdb
+C:\Users\Buyani\source\repos\InventoryApp\Inventry.DAL\obj\Debug\netcoreapp3.1\Inventry.DAL.genruntimeconfig.cache
